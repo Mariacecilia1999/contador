@@ -15,6 +15,10 @@ function init(){
 
    contenedor.appendChild(creandoH2)
 
+   creandoH2.style.color='blue'
+   contenedor.style.backgroundColor='yellow'
+   contenedor.style.width='500px'
+   contenedor.style.height='500px'
    
 
 
