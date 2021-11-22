@@ -11,51 +11,57 @@ function init(){
    let sextoBoton=document.getElementById('+10')
 
    let contenedor=document.getElementById('contenedor')
+
+  
+
    let creandoH2=document.createElement('h2')
 
-   contenedor.appendChild(creandoH2)
+  
+
+   let capturandoCajaGrande=document.querySelector('.cajaGrande')
+   capturandoCajaGrande.appendChild(creandoH2)
 
    creandoH2.style.color='blue'
    contenedor.style.backgroundColor='yellow'
-   contenedor.style.width='500px'
-   contenedor.style.height='500px'
+   contenedor.style.width='300px'
+   contenedor.style.height='200px'
    
 
 
    primerBoton.onclick= function(e){
       contador--
       console.log(contador)
-      creandoH2.innerHTML=contador
+      creandoH2.innerHTML=`El contador esta en: ${contador}`
    }
 
    segundoBoton.onclick=function(e){
       contador++
       console.log(contador)
-      creandoH2.innerHTML=contador
+      creandoH2.innerHTML=`El contador esta en: ${contador}`
    }
 
    tercerBoton.onclick=function(e){
       contador=contador-5
       console.log(contador)
-      creandoH2.innerHTML=contador
+      creandoH2.innerHTML=`El contador esta en: ${contador}`
    }
    
    cuartoBoton.onclick=function(e){
       contador=contador+5
       console.log(contador)
-      creandoH2.innerHTML=contador
+      creandoH2.innerHTML=`El contador esta en: ${contador}`
    }
 
    quintoBoton.onclick=function(e){
       contador=contador-10
       console.log(contador)
-      creandoH2.innerHTML=contador
+      creandoH2.innerHTML=`El contador esta en: ${contador}`
    }
 
    sextoBoton.onclick=function(e){
       contador=contador+10
       console.log(contador)
-      creandoH2.innerHTML=contador
+      creandoH2.innerHTML=`El contador esta en: ${contador}`
    }
 
 

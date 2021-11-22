@@ -1,0 +1,21 @@
+
+.cajaGrande{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+#contenedor .boton{
+    width: 150px;
+    height: 60px;
+    font-size: 3rem;
+}
