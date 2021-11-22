@@ -15,6 +15,7 @@ function init(){
   
 
    let creandoH2=document.createElement('h2')
+   creandoH2.style.fontSize='2.5rem'
 
   
 
